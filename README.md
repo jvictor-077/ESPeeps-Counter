@@ -2,7 +2,7 @@
 
 **ESPeeps Counter** é um projeto open source que transforma seu **ESP8266** em um **hotspot Wi-Fi inteligente**, capaz de **contar em tempo real** o número de dispositivos conectados à rede. Simples, direto e ideal para monitorar a presença de pessoas em eventos, espaços públicos ou qualquer ambiente onde o Wi-Fi esteja presente.
 
-![ESPeeps Banner](https://your-image-url.com) <!-- Opcional -->
+[![Assista a demonstração](https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)](https://firebasestorage.googleapis.com/v0/b/akad-fbe7e.appspot.com/o/github%2Fteste.mp4?alt=media&token=69c5bf15-a115-44fe-9811-7d76ca95528d)
 
 ---
 
@@ -66,7 +66,7 @@
 
 
 
-![Display de 7 segmentos](https://www.usinainfo.com.br/blog/wp-content/uploads/2020/08/esquema-de-pinagem-do-display-7-segmentos.jpg) <!-- Opcional -->
+
 
 ## 1.3 Conexões para LEDs com ESP8266
 
