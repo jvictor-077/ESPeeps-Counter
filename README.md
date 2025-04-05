@@ -41,7 +41,6 @@
 
 ## 🚀 Instalação
 
-1. Conexões:
 
 ## 1.1 Conexões entre Arduino e ESP8266
 
