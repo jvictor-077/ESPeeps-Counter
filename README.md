@@ -41,6 +41,38 @@
 
 ## 🚀 Instalação
 
-1. Clone este repositório:
+
+1. Conexões:
+
+  | Arduino | ESP8266 |
+  |---------|---------|
+  |   TX   -->   RX   |        
+  |   RX   -->   TX   |
+  |  GND   -->   GND  |
+
+
+  | Arduino | Resistor | display de 7 segmentos |
+  |---------|-----------------------------------|
+  |   5V    |  R(1k)   |         COM++          |
+  |  GND    |          |         COM--          |
+  |    2    |          |          A             |
+  |    3    |          |          B             |
+  |    4    |          |          C             |
+  |    5    |          |          D             |
+  |    6    |          |          E             |
+  |    7    |          |          F             |
+  |    8    |          |          G             |
+
+
+
+  | ESP8266 | Resistor |         LED            |
+  |---------|-----------------------------------|
+  |   D1    |  R(1k)   |         LED(0)         |
+  |   D2    |  R(1k)   |         LED(1)         |
+  |   D6    |  R(1k)   |         LED(2)         |
+  |   D5    |  R(1k)   |         LED(3)         |
+
+
+2. Clone este repositório:
    ```bash
    git clone https://github.com/seuusuario/ESPEeps-Counter.git
