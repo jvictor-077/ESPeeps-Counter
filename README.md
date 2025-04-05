@@ -81,4 +81,4 @@
 
 2. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/ESPEeps-Counter.git
+   git clone https://github.com/jvictor-077/ESPeeps-Counter.git
