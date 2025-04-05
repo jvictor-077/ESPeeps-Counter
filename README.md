@@ -41,36 +41,39 @@
 
 ## 🚀 Instalação
 
-
 1. Conexões:
 
-  | Arduino | ESP8266 |
-  |---------|---------|
-  |   TX   -->   RX   |        
-  |   RX   -->   TX   |
-  |  GND   -->   GND  |
+## 1.1 Conexões entre Arduino e ESP8266
 
+| Arduino | ESP8266 |
+|---------|---------|
+| TX      | RX      |
+| RX      | TX      |
+| GND     | GND     |
 
-  | Arduino | Resistor | display de 7 segmentos |
-  |---------|-----------------------------------|
-  |   5V    |  R(1k)   |         COM++          |
-  |  GND    |          |         COM--          |
-  |    2    |          |          A             |
-  |    3    |          |          B             |
-  |    4    |          |          C             |
-  |    5    |          |          D             |
-  |    6    |          |          E             |
-  |    7    |          |          F             |
-  |    8    |          |          G             |
+## 1.2 Conexões para Display de 7 Segmentos
 
+| Arduino | Resistor | Display de 7 Segmentos |
+|---------|----------|------------------------|
+| 5V      | R (1kΩ)  | COM+ (Ânodo comum)     |
+| GND     | -        | COM- (Cátodo comum)    |
+| Pino 2  | -        | Segmento A             |
+| Pino 3  | -        | Segmento B             |
+| Pino 4  | -        | Segmento C             |
+| Pino 5  | -        | Segmento D             |
+| Pino 6  | -        | Segmento E             |
+| Pino 7  | -        | Segmento F             |
+| Pino 8  | -        | Segmento G             |
 
+## 1.3 Conexões para LEDs com ESP8266
 
-  | ESP8266 | Resistor |         LED            |
-  |---------|-----------------------------------|
-  |   D1    |  R(1k)   |         LED(0)         |
-  |   D2    |  R(1k)   |         LED(1)         |
-  |   D6    |  R(1k)   |         LED(2)         |
-  |   D5    |  R(1k)   |         LED(3)         |
+| ESP8266 | Resistor | LED  |
+|---------|----------|------|
+| D1 (GPIO5)  | R (1kΩ) | LED 0 |
+| D2 (GPIO4)  | R (1kΩ) | LED 1 |
+| D6 (GPIO12) | R (1kΩ) | LED 2 |
+| D5 (GPIO14) | R (1kΩ) | LED 3 |
+
 
 
 2. Clone este repositório:
