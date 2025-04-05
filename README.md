@@ -64,6 +64,10 @@
 | Pino 7  | -        | Segmento F             |
 | Pino 8  | -        | Segmento G             |
 
+
+
+![Display de 7 segmentos](https://www.usinainfo.com.br/blog/wp-content/uploads/2020/08/esquema-de-pinagem-do-display-7-segmentos.jpg) <!-- Opcional -->
+
 ## 1.3 Conexões para LEDs com ESP8266
 
 | ESP8266 | Resistor | LED  |
