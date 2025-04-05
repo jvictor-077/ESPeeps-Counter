@@ -65,6 +65,9 @@
 | Pino 8  | -        | Segmento G             |
 
 
+![Display de 7 segmentos](https://www.usinainfo.com.br/blog/wp-content/uploads/2020/08/esquema-de-pinagem-do-display-7-segmentos.jpg) <!-- Opcional -->
+
+
 
 
 
